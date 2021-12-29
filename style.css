@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom, rgb(73, 70, 70) 50%, lightgray 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: lightgray;
+    height: 60vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    height: 90%;
+    background-color: white;
+    text-align: center;
+}
+
+.profile-img {
+    height: 150px;
+}
+
+legend {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.icons-wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 30px;
+}
